@@ -4,7 +4,7 @@
   "description": "A simple Node.js server that collects all the MQTT messages and write them to text files.",
   "main": "index.ts",
   "scripts": {
-    "start": "ts-node --transpile-only index.ts"
+    "start": "ts-node --transpile-only src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,12 @@
   },
   "homepage": "https://github.com/durkiewicz/mqtt-collector#readme",
   "dependencies": {
-    "ts-node": "^10.9.1"
+    "mqtt": "^4.3.7",
+    "ts-node": "^10.9.1",
+    "yargs": "^17.7.1"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.24",
+    "typescript": "^5.0.4"
   }
 }
