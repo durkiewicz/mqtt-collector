@@ -1,0 +1,28 @@
+{
+  "name": "mqtt-collector",
+  "version": "0.1.0",
+  "description": "A simple Node.js server that collects all the MQTT messages and write them to text files.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node --transpile-only index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/durkiewicz/mqtt-collector.git"
+  },
+  "keywords": [
+    "MQTT",
+    "Node.js",
+    "collect",
+    "dump"
+  ],
+  "author": "Kamil Durkiewicz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/durkiewicz/mqtt-collector/issues"
+  },
+  "homepage": "https://github.com/durkiewicz/mqtt-collector#readme",
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
