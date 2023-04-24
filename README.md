@@ -16,6 +16,36 @@ npm ci
 
 ## Usage
 
+### Check available commands
+
 ```bash
-npm start -- --host=<your-host> --port=<your-port> --username=<username> --password=<password>
+npm start -- help
+```
+
+### `collect` command
+
+To check the available options for the `collect` command, run the following command:
+
+```bash
+npm start -- collect --help
+```
+
+To collect all the messages from a broker, run the following command:
+
+```bash
+npm start -- collect --host=<your-host> --port=<your-port> --username=<username> --password=<password>
+```
+
+### `replay` command
+
+To check the available options for the `replay` command, run the following command:
+
+```bash
+npm start -- replay --help
+```
+
+To replay previously collected messages, run the following command:
+
+```bash
+npm start -- replay --host=<your-host> --port=<your-port> --username=<username> --password=<password>
 ```
