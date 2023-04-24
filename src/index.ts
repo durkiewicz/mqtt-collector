@@ -1,7 +1,7 @@
 import { randomUUID } from "crypto";
 import { promises as fs } from 'fs';
 import * as path from "path";
-import yargs, { global } from 'yargs';
+import yargs from 'yargs';
 import { connect } from 'mqtt';
 
 const protocols = ['mqtt', 'mqtts', 'ws', 'wss'] as const;
